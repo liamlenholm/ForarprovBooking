@@ -103,6 +103,7 @@ static void RunScript()
             {
                 Console.WriteLine("TIME FOUND AT " + Date.ToString());
                 driver.Quit();
+                Console.ReadKey();
                 break;
             }
             else
