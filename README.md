@@ -22,7 +22,7 @@ userCar value="" - Either "Manuell bil" or "Automatbil"
 
 userDates value="" - Your desired date to check if time is available. You can use multiple dates by separating them with ",". 
 
-refreshTime value="" - How often the bot should check if a new time gets available. Time is in seconds so 120 = every 2 minutes. Minimum is 120
+refreshTime value="" - How often the bot should check if a new time gets available. Time is in seconds so 120 = every 2 minutes.
 
 		<add key="userSSN" value ="YYYYMMDDXXXX" /> 
 		<add key="userLicense" value ="B" />
