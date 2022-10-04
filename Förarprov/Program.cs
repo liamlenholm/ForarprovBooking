@@ -24,14 +24,6 @@ static void RunScript()
     string refreshTime = ConfigurationManager.AppSettings["refreshTime"];
 
     int refreshRate = Convert.ToInt32(refreshTime) * 1000;
-    
-    //Sets Minimum every 2 minutes 
-    if (refreshRate < 120000)
-    {
-        refreshRate = 120000;
-    } 
-
-
 
 
     //SET DRIVER
@@ -151,7 +143,7 @@ static void RunScript()
         }
     }
 }
-    
+
 
 
 
